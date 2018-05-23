@@ -21,7 +21,7 @@ Once the service is installed. Activate it as following:
 You can check the status of service as follows:
 
 ```
-   sudo systemctl status sshtunnel
+   sudo systemctl status sshbridge
 ```
 
 On the bridge machine, to ssh into the host running this service, use the following command:
