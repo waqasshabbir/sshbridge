@@ -55,7 +55,7 @@ ExecStart=/usr/bin/autossh $cmd_args
 WantedBy=multi-user.target
 EOF"
 >/dev/null; then
-    echo "sshtunnel service created [ok]"
+    echo "${SERVICE_NAME%.*} created [ok]"
 else
     exit 64
 fi
